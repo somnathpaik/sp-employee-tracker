@@ -1,0 +1,271 @@
+/* Day Calendar design */
+
+.badge_white {
+    border-left-color: #f1f1f1;
+    background: rgba(255, 255, 255, 0.6);
+    /* align-self: center; */
+    color: #fff;
+    margin-top: -5px;
+    border-left-width: 3px;
+    padding: 4px 8px;
+    margin: 10px 0px;
+    border-left-style: solid;
+    font-size: 14px;
+    text-align: center;
+    /* position: relative; */
+    border-left: 3px #fdb44;
+}
+
+.badge_success {
+    border-left-color: #006800;
+    background: #e2f7e2;
+    /* align-self: center; */
+    color: #006800;
+    margin-top: -5px;
+    border-left-width: 3px;
+    padding: 4px 8px;
+    margin: 10px 0px;
+    border-left-style: solid;
+    font-size: 14px;
+    text-align: center;
+    /* position: relative; */
+    border-left: 3px #fdb44;
+}
+
+.badge_red {
+    margin-top: -5px;
+    border-left-width: 3px;
+    padding: 4px 8px;
+    margin: 10px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+#hours_form .form-group {
+    color: #fff !important;
+}
+
+#hours_form .span12 {
+    width: 100%;
+}
+
+#hours_form table {
+    width: 100%;
+    text-align: center
+}
+
+.calendar_design {
+    background: #fff;
+    padding: 30px 20px;
+}
+
+#hours_form table th {
+    color: #000;
+}
+
+#hours_form table td {
+    color: #000 !important;
+}
+
+#hours_form table th {
+    height: 25px;
+}
+
+#hours_form table tbody {
+    vertical-align: text-top;
+}
+
+#hours_form table tbody td {
+    table-layout: fixed;
+    overflow: hidden;
+    word-wrap: break-word;
+    width: 14.2%;
+}
+
+#hours_form table td {
+    height: 30px;
+}
+
+#hours_form .btn-success {
+    color: #006800;
+}
+
+#hours_form table td.muted {
+    color: #858796 !important;
+}
+
+#hours_form table thead th {
+    background: #000;
+    color: #fff;
+    border: 0px;
+    height: 40px;
+}
+
+#hours_form table tbody th {
+    background: #fff;
+    color: #000;
+    border: 0px;
+    border-right: 1px solid #e3e6f0 !important;
+}
+
+#hours_form table tbody td {
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+}
+
+.btn-selected {
+    background: #006800;
+}
+
+.calendar_link {
+    float: right;
+    margin-top: 14px;
+    color: #000;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.calendar_design.panel1 table {
+    width: 100%;
+}
+
+.calendar_design.panel1 table thead th {
+    width: 14.28%;
+}
+
+.calendar_design.panel1 .badge_red {
+    display: inline-block;
+}
+
+.calendar_design.panel1 .col-auto {
+    padding-left: 12px;
+    padding-bottom: 10px;
+}
+
+@media(max-width:767px) {
+    .scroll-x {
+        overflow-x: scroll
+    }
+
+    .calendar_link {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-top: 0px !Important;
+    }
+
+    #hours_form table thead th {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+.form-control:focus {
+    background: #000 !important;
+    outline: 0px !important;
+}
+
+.time_select_drp {
+    color: #fff !important;
+    background: #000 !Important;
+}
+
+.listing_style li a {
+    color: #fff;
+}
+
+.align-right {
+    text-align: right;
+}
+
+
+table.table-condensed.table-bordered.dashboard_calendar th {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.calendar_design.panel1 .badge_red {
+    float: right;
+}
+
+span.btn.active.btn_fonts.panel1-badge.current_month {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+span.btn.active.btn_fonts.work_hour {
+    background-color: #3cb371;
+    color: #fff;
+}
+
+.calendar_design.panel1 table tbody td {
+    width: 14.28%;
+    height: 80px;
+    position: relative;
+}
+
+.calendar_design.panel1 table {
+    table-layout: fixed;
+}
+
+.calendar_design.panel1 table tbody td div {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    margin: 0px;
+}
+
+.calendar_design.panel1 table tbody td span {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    margin: 0px;
+}
+
+.cal_arrows_head {
+    display: flex;
+    align-items: center;
+}
+
+.cal_arrow a i {
+    font-size: 14px;
+    color: #337ab7;
+    line-height: 0px;
+}
+
+.cal_arrows_head .current_month {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cal_arrow a {
+    height: 100%;
+    border: 2px solid #337ab7;
+    border-radius: 4px;
+    padding: 7px 12px;
+}
+
+.cal_arrow a:hover {
+    border: 2px solid #337ab7;
+    background: #337ab7;
+}
+
+.cal_arrow a:hover i {
+    color: #fff;
+}
+
+/* Table css */
+
+.custom_header {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    margin: 0px;
+    background: #f1f1f1;
+}
