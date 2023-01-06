@@ -141,7 +141,7 @@ Toast::message('message', 'level', 'title');
             data: data_hours = {
                 labels: labels,
                 datasets: [{
-                    label: 'Team progress 2022 (Hours)',
+                    label: 'Team progress {{$year}} (Hours)',
                     backgroundColor: 'darkseagreen',
                     borderColor: 'darkseagreen',
                     data: [<?php echo '"' . implode('","',  $graph_report_service_hours) . '"' ?>],
@@ -158,7 +158,7 @@ Toast::message('message', 'level', 'title');
             data: data_service_count = {
                 labels: labels,
                 datasets: [{
-                    label: 'Team progress 2022 (Services)',
+                    label: 'Team progress {{$year}} (Services)',
                     backgroundColor: 'olive',
                     borderColor: 'olive',
                     data: [<?php echo '"' . implode('","',  $graph_report_service_count) . '"' ?>],
@@ -175,7 +175,7 @@ Toast::message('message', 'level', 'title');
             data: data_client_count = {
                 labels: labels,
                 datasets: [{
-                    label: 'Team progress 2022 (Clients)',
+                    label: 'Team progress {{$year}} (Clients)',
                     backgroundColor: 'darkgreen',
                     borderColor: 'darkgreen',
                     data: [<?php echo '"' . implode('","',  $graph_report_client_count) . '"' ?>],

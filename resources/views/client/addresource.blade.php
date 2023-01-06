@@ -138,7 +138,7 @@ Add Resource
                                                 <label>Month<span style="color: red;">*</span></label>
                                                 <select class="form-control" name="month" id="month" required="">
                                                     <option value="">--Please select--</option>
-                                                    <option selected value='Janaury'>Janaury</option>
+                                                    <option selected value='January'>January</option>
                                                     <option value='February'>February</option>
                                                     <option value='March'>March</option>
                                                     <option value='April'>April</option>
